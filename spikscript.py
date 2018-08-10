@@ -1,4 +1,4 @@
-n#created by TS Marcos
+#created by TS Marcos
 #generate spikes based on channel population
 
 import Tkinter as Tk
@@ -17,6 +17,8 @@ print ("The number is \i")
 Na(ct) = 0.001
 K(ct) = 0.005
 Hcn(ct) = -0.001
+
+Rp = -70mV
 
 GSK = (Na(ct)+K(ct)/3)/Na(ct)*5 # mVolts
 
